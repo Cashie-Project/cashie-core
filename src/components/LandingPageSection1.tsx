@@ -7,7 +7,7 @@ const LandingPageSection1 = () => {
         <div className="w-full h-auto flex flex-col items-start justify-start gap-[50px]">
           <div className="w-full h-auto flex flex-col items-start justify-start gap-[20px]">
             <p className="text-left font-roboto text-[36px] leading-[44px] text-[#000000] font-[700]">
-              Segala informasi mengenai bisnis/toko ada di bawah kendali Anda.
+              Segala informasi mengenai bisnis / toko ada di bawah kendali Anda.
             </p>
             <p className="text-left font-roboto text-[24px] leading-[32px] text-[#000000]">
               Sistem aplikasi kasir online berbasis cloud yang dapat mengoptimalkan potensi bisnis Anda, baik secara online maupun offline.
@@ -16,7 +16,7 @@ const LandingPageSection1 = () => {
           <div className="w-full h-auto">
             <button
               type="button"
-              className="w-full h-auto px-[40px] py-[20px] rounded-full bg-[#00A9FF] cursor-pointer text-center font-roboto text-[22px] leading-[28px] font-[800] text-[#FFFFFF]"
+              className="w-full h-auto px-[20px] py-[10px] rounded-full bg-[#00A9FF] cursor-pointer text-center font-roboto text-[16px] leading-[24px] font-[800] text-[#FFFFFF] hover:opacity-80"
             >
               Mulai Sekarang
             </button>

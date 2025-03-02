@@ -1,4 +1,5 @@
 import AppBar from "../components/AppBar"
+import ContactUs from "../components/ContactUs"
 import Footer from "../components/Footer"
 import LandingPageSection1 from "../components/LandingPageSection1"
 import LandingPageSection2 from "../components/LandingPageSection2"
@@ -16,6 +17,7 @@ const Home = () => {
       <LandingPageSection4 />
       <LandingPageSection5 />
       <Footer />
+      <ContactUs />
     </>
   )
 }

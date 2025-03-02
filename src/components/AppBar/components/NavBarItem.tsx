@@ -5,7 +5,7 @@ const NavBarItem = (props: NavBarItemInterface) => {
     <>
       <button
         type="button"
-        className="w-auto h-auto px-[20px] py-[10px] font-roboto text-[14px] leading-[20px] text-[#000000] bg-[#FFFFFF] cursor-pointer"
+        className="w-auto h-auto px-[20px] py-[10px] font-roboto text-[16px] leading-[24px] text-[#000000] bg-[#FFFFFF] cursor-pointer"
       >
         {props.labelText}
       </button>

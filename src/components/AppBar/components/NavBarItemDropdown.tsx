@@ -1,5 +1,5 @@
 import { NavBarItemDropdownInterface } from "../../../models/navbar-item-dropdown.interface"
-import ExpandMoreIcon from '../../../assets/images/svg/expand_more_24px.svg';
+import ExpandMoreIcon from '../../../assets/images/svg/expand_more_24px.svg'
 import { useState } from "react";
 
 const NavBarItemDropdown = (props: NavBarItemDropdownInterface) => {
@@ -17,12 +17,12 @@ const NavBarItemDropdown = (props: NavBarItemDropdownInterface) => {
           className="w-auto h-auto px-[20px] py-[10px] flex items-center justify-center cursor-pointer bg-[#FFFFFF] gap-[10px]"
           onClick={handleToggleDropdown}
         >
-          <p className="font-roboto text-[14px] leading-[20px] text-[#000000]">{props.labelText}</p>
+          <p className="font-roboto text-[16px] leading-[24px] text-[#000000]">{props.labelText}</p>
           <img
             src={ExpandMoreIcon}
             alt="Expand more icon"
             loading="lazy"
-            className="w-full h-full min-w-[24px] max-w-[24px] min-h-[24px] max-h-[24px]"
+            className={`w-full h-full min-w-[24px] max-w-[24px] min-h-[24px] max-h-[24px] transition-all ${isShowDropdown ? 'rotate-180' : ''}`}
           />
         </button>
 
