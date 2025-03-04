@@ -1,5 +1,5 @@
-import LoginButton from "./LoginButton"
-import SwitchLanguage from "./SwitchLanguage"
+import LoginButton from "./components/LoginButton"
+import SwitchLanguage from "./components/SwitchLanguage"
 
 const AdditionalButton = () => {
   return (

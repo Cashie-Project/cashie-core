@@ -16,7 +16,7 @@ const LandingPageSection1 = () => {
           <div className="w-full h-auto">
             <button
               type="button"
-              className="w-full h-auto px-[20px] py-[10px] rounded-full bg-[#00A9FF] cursor-pointer text-center font-roboto text-[16px] leading-[24px] font-[800] text-[#FFFFFF] hover:opacity-80"
+              className="w-full h-auto px-[20px] py-[10px] rounded-full bg-[#00A9FF] cursor-pointer text-center font-roboto text-[16px] leading-[24px] font-[600] text-[#FFFFFF] hover:bg-[#0087CC]"
             >
               Mulai Sekarang
             </button>

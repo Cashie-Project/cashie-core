@@ -1,6 +1,7 @@
-import { NavbarDropdownItemInterface } from './navbar-dropdown-item.interface';
+import { NavbarDropdownItemBusinessSolution, NavbarDropdownItemService } from './navbar-dropdown-item.interface';
 
 export interface NavBarItemDropdownInterface {
   labelText: string;
-  items?: NavbarDropdownItemInterface[];
+  value: string;
+  items?: NavbarDropdownItemService[] | NavbarDropdownItemBusinessSolution[];
 }
