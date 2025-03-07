@@ -1,12 +1,12 @@
-import { useNavigate } from 'react-router-dom'
 import LogoBlackImage from '../../../assets/images/png/logo_black.png'
-import { PAGE_HOME } from '../../../utils/constants/page.constants';
+import { PAGE_HOME } from '../../../utils/constants/page.constants'
+import { useHistory } from 'react-router-dom'
 
 const AppLogo = () => {
-  const navigate = useNavigate();
+  const history = useHistory();
 
   const handleNavigateToHomePage = () => {
-    navigate(PAGE_HOME);
+    history.push(PAGE_HOME);
   };
 
   return (

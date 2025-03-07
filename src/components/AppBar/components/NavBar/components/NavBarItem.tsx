@@ -1,11 +1,11 @@
+import { useHistory } from "react-router-dom";
 import { NavBarItemInterface } from "../../../../../models/navbar-item.interface";
-import { useNavigate } from 'react-router-dom';
 
 const NavBarItem = (props: NavBarItemInterface) => {
-  const navigate = useNavigate();
+  const history = useHistory();
 
   const handleRedirectPage = (pageUrl: string) => {
-    navigate(pageUrl);
+    history.push(pageUrl);
   };
 
   return (

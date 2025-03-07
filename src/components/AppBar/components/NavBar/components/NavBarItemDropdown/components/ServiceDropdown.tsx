@@ -3,7 +3,7 @@ import { ServiceDropdownInterface } from "../../../../../../../models/service-dr
 const ServiceDropdown = (props: ServiceDropdownInterface) => {
   return (
     <>
-      <div className="w-auto h-auto absolute top-[45px] left-[0px] bg-[#FFFFFF] rounded-[12px] shadow-md flex items-start justify-start py-[25px] flex-nowrap border-[1px] border-[#D9D9D9] overflow-hidden">
+      <div className="w-auto h-auto absolute top-[45px] left-[20px] bg-[#FFFFFF] rounded-[12px] shadow-md flex items-start justify-start py-[25px] flex-nowrap border-[1px] border-[#D9D9D9] overflow-hidden">
         {props.items.map((serviceGroupItem, serviceGroupIndex) => (
           <>
             <div key={serviceGroupIndex} className={`w-full h-auto flex flex-col items-start justify-start gap-[25px] flex-nowrap px-[25px] ${serviceGroupItem.value == 'jualan_offline' ? 'border-r-[1px] border-[#D9D9D9]' : ''}`}>
